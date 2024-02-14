@@ -10,8 +10,10 @@ wget "https://search.maven.org/remotecontent?filepath=com/formdev/flatlaf/3.3/fl
 mv remotecontent\?filepath=com%2Fformdev%2Fflatlaf%2F3.3%2Fflatlaf-3.3.jar flatlaf-3.3.jar
 # Extract manifest
 jar xvf Mars4_5.jar META-INF/MANIFEST.MF
-# Change manifest to include flatlaf in classpath 
+# Change manifest to include flatlaf in classpath
 sed -i "s/Class-Path: ./Class-Path: flatlaf-3.3.jar/" META-INF/MANIFEST.MF
+# Delete the old manifest
+jar uvf Mars4_5.jar  META-INF/MANIFEST.MF
 # Repack jar
 jar uvfm Mars4_5.jar META-INF/MANIFEST.MF
 
