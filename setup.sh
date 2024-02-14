@@ -16,5 +16,3 @@ sed -i "s/Class-Path: ./Class-Path: flatlaf-3.3.jar/" META-INF/MANIFEST.MF
 jar uvf Mars4_5.jar  META-INF/MANIFEST.MF
 # Readd manifest
 jar uvfm Mars4_5.jar META-INF/MANIFEST.MF
-# Add library to jar
-jar uvf0 Mars4_5.jar flatlaf-3.3.jar

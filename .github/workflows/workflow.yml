@@ -45,6 +45,8 @@ jobs:
           prerelease: true
           title: "Latest Runnables"
           files: |
+            ./licenses/Flatlaf-LICENSE
             ./Mars4_5.jar
+            ./flatlaf-3.3.jar
             ./mars-mips.sh
             ./mars-mips-uiscale.sh
