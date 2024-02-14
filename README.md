@@ -2,7 +2,7 @@
 This script is originally written for personal use in HKUST.
 
 ## Usage
-First do [Download Compiled Versions](#Downloading\_Compiled\_Versions) or [Executing the Setup Script Yourself](#Executing\_the\_Setup\_Script\_Yourself), then read [Running MARS](#Running\_MARS).
+First do [Download Compiled Versions](#Downloading-Compiled-Versions) or [Executing the Setup Script Yourself](#Executing-the-Setup-Script-Yourself), then read [Running MARS](#Running-MARS).
 ### Downloading Compiled Versions
 Download the files [here](https://github.com/151044/mars-dark-theme-script/releases/tag/latest), under Assets.
 ### Executing the Setup Script Yourself
