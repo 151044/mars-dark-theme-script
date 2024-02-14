@@ -14,6 +14,7 @@ jar xvf Mars4_5.jar META-INF/MANIFEST.MF
 sed -i "s/Class-Path: ./Class-Path: flatlaf-3.3.jar/" META-INF/MANIFEST.MF
 # Delete the old manifest
 jar uvf Mars4_5.jar  META-INF/MANIFEST.MF
-# Repack jar
+# Readd manifest
 jar uvfm Mars4_5.jar META-INF/MANIFEST.MF
-
+# Add library to jar
+jar uvf0 Mars4_5.jar flatlaf-3.3.jar
