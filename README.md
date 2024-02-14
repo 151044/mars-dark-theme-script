@@ -1,5 +1,7 @@
 # MARS Dark Mode Patches
-This script is originally written for personal use in HKUST.
+This script is originally written for personal use in HKUST for Linux machines.
+
+This will not work for Windows.
 
 ## Usage
 First do [Download Compiled Versions](#Downloading-Compiled-Versions) or [Executing the Setup Script Yourself](#Executing-the-Setup-Script-Yourself), then read [Running MARS](#Running-MARS).
