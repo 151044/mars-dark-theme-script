@@ -35,7 +35,7 @@ Run `mars-mips.sh` or `mars-mips-uiscale.sh` to launch MARS on Linux and Mac. `m
 ./mars-mips-uiscale.sh
 ```
 
-For Windows users, run `mars-mips.bat`:
+For Windows users, run `mars-mips.bat` in the command line, or double click the batch file:
 ```
 mars-mips.bat
 ```
