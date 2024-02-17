@@ -50,3 +50,4 @@ jobs:
             ./flatlaf-3.3.jar
             ./mars-mips.sh
             ./mars-mips-uiscale.sh
+            ./mars-mips.bat
